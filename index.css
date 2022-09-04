@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+.logo {
+  width: 150px;
+  height: 40px;
+}
+.heroBg {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("./image/hero-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*  */
+.linktext a:hover {
+  font-size: 1.2rem;
+  border-bottom: 1px solid white;
+}
+.textHolder {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateX(-10px);
+}
+.textHolder a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.textHolder a:hover {
+  color: #222;
+}
+
+.heroBtn:hover {
+  background-color: white;
+}
+/* gallery */
+.gallery {
+  padding: 2em;
+  width: 100%;
+  min-height: 22rem;
+}
+.imgDiv {
+  width: 18rem;
+  height: 18rem;
+}
+.imgs {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+.imgs:hover {
+  filter: brightness(50%);
+  transform: scale(0.7);
+}
+/* about */
+.about {
+  padding: 4em;
+  margin-bottom: 3em;
+  width: 100%;
+  background-image: url("./image/about.jpg");
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .imgContainer {
+  min-width: 30rem;
+
+  height: 20rem;
+} */
+.student {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.para {
+  text-align: center;
+}
+.icongp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.icongp .abouticon {
+  color: white;
+  font-size: 1.4rem;
+  transition: 0.2s;
+}
+.abouticon:hover {
+  transform: scale(1.2);
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footText {
+  color: #202c2d;
+  background: #ffffff;
+  text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5,
+    -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5,
+    -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5,
+    -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5;
+  color: #202c2d;
+  background: #ffffff;
+}

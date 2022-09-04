@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  /* background: url("../image/login3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%; */
+}
+.formBg {
+  width: 100%;
+  background-image: url("../image/login3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.formcontainer {
+  margin: 2em auto;
+  max-width: 22rem;
+  min-height: 30rem;
+  /* max-height: 3rem; */
+  padding: 2em 2em 1em 2em;
+  /* position: relative;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%, 0); */
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #000;
+}
+.userIcon .icon {
+  padding: 0.5em;
+  font-size: 1.8rem;
+  color: black;
+  border-radius: 50%;
+  background-color: #f7f5ee;
+}
+.iconContainers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+.submitBtn {
+  color: white;
+  border: 0;
+  background-color: #171313;
+}
+.icon {
+  font-size: 1.3rem;
+  color: #171313;
+  opacity: 1;
+  transition: 0.1s;
+}
+.icon:hover {
+  transform: scale(1.2);
+  color: #fff;
+}

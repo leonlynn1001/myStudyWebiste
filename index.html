@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <!-- <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    /> -->
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css" /> 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- hero --> 
+    <main class="heroBg bg-secondary">
+      <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#"><img class="logo" src="./image/logo2.png" alt=""></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon text-white"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="linktext nav-item">
+              <a class=" nav-link active text-white" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="linktext nav-item">
+              <a class="nav-link text-white active" href="./books/books.html">Books</a>
+            </li>
+            <li class="linktext nav-item">
+              <a class="nav-link text-white active" href="./findCourses/totalcourse.html">Courses</a>
+            </li>
+            <li class="linktext nav-item">
+              <a class="nav-link text-white active" href="./login/login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- nav end -->
+      <div class="textHolder container text-center">
+      <div class="heroText">
+        <h1 class="fs-1 text-white mb-3">Study Anytime,Any Where</h1>
+        <button class="heroBtn fs-3 btn btn-dark text-dark"><a href="#about">More About Us</a></button>
+      </div>
+    </main>
+    <!-- hero end -->
+    <!-- gallery -->
+    <section class="gallery container">
+      <div class="row mb-2">
+        <div class="imgDiv col">
+          <img class="imgs" src="./image/gallery1.jpg" alt="">
+        </div>
+        <div class="imgDiv col">
+          <img class="imgs" src="./image/gallery2.jpg" alt=""> 
+        </div>
+      </div>
+      <div class="row">
+        <div class="imgDiv col">
+          <img class="imgs" src="./image/gallery3.jpg" alt="">
+        </div>
+        <div class="imgDiv col">
+          <img class="imgs" src="./image/gallery4.jpg" alt=""> 
+        </div>
+      </div>   
+    </section>
+    <!-- card -->
+    <section class="container py-5">
+      <h3 class="text-center fs-2 fw-bold text-dark">Courses And Books</h3>
+      <div class="row g-5 d-flex justify-content-center">
+        <div class="col-12 col-md-6 col-lg-3" style="width: 200px">
+          <div class="bg-secondary" style="height: 200px">
+            <img class="img-fluid" src="./image/japan3.jpg" alt="" style="width:200px;height:200px;object-fit: cover;">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3" style="width: 200px;height: 220px;">
+          <div class="bg-secondary" style="height: 200px">
+            <img class="img-fluid" src="./image/english2.jpg" alt="" style="width:200px;height:200px;object-fit: cover;">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3" style="width: 200px;height: 220px;">
+          <div class="bg-secondary" style="height: 200px">
+            <img class="img-fluid" src="./image/younsei1.jpg" alt="" style="width:200px;height:200px;object-fit: cover;">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3" style="width: 200px;height: 220px;">
+          <div class="bg-secondary" style="height: 200px;">
+            <img class="img-fluid" src="./image/yonsei4.jpg" alt="" style="width:200px;height:200px;object-fit: cover;">
+          </div>
+        </div>
+      </div>
+      <div class="text-center">
+        <a href="./books/books.html"><button class="btn btn-dark text-white">See More Books..</button></a>
+      </div>
+    </section>
+    <!-- about us -->
+    <section class="about container" id="about">
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-5 me-2">
+          <!-- <div
+              class="avatorTwo imgContainer"
+          > -->
+            <img class="student" src="./image/student2.jpg" alt="" />
+          <!-- </div> -->
+        </div>
+        <div class=" col">
+
+        </div>
+        <div class="col-12 col-md-12 col-lg-6">
+          <div>
+            <p class="text-white fs-5">Accesss AnyTime, AnyWhere by Joining With <span class="text-white fs-3">Us</span></p>
+            <p class="text-white fs-5 text-center">What is StudyZone?
+            </p>
+            <p class="para text-white">One of the best places where you can learn,make friends and build yourself to be a better upgraded person. Keep in touch with the world by joining us and don't hesitate to start the things what you have to do.Thousands of productive courses will  be brought to you soon.<br>Stay tuned guys! </p>
+            <div class="aboutIcons text-center">
+              <div class="icongp">
+                <i class="abouticon fa-solid fa-phone"></i>
+                <i class="abouticon fa-solid fa-envelope"></i>
+                <i class="abouticon fa-brands fa-facebook"></i>
+              </div>
+              <div class="contact d-none d-sm-flex d-md-flex d-lg-flex">
+                <p class="text-white">09-426389839</p>
+                <p class="text-white">abc@gmail.com</p>
+                <p class="text-white">studyHereOnFaceBook</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="container-fluid">
+      <div class="footText border-top border-top-2 py-5 text-center">
+      <strong class="fs-1 fw-bold">Made With 🖤 By LeonLynn</strong>
+      </div>
+    </footer>
+    
+  </body>
+  
+</html>
